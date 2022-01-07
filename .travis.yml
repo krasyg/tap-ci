@@ -15,5 +15,5 @@ install:
 
 
 script:
-  - test.py
+  - pytest test.py
   - pylint main.py
