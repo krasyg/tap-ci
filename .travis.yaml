@@ -14,6 +14,6 @@ install:
   - pip install -r requirements.txt
 
 
-scripts:
-  - py.test --junitxml results.xml test.py
+script:
+  - test.py
   - pylint main.py
